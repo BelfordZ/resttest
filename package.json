@@ -1,0 +1,27 @@
+{
+  "name": "resttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BelfordZ/resttest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BelfordZ/resttest/issues"
+  },
+  "homepage": "https://github.com/BelfordZ/resttest#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "superagent": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
